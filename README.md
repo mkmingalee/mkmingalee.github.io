@@ -1,9 +1,12 @@
-![Ellipse 5](https://user-images.githubusercontent.com/71538414/111078385-7c165d00-84cb-11eb-876c-31fc74f5cac4.png)
+![Ellipse 5](https://user-images.githubusercontent.com/71538414/111084650-dde5bf80-84e9-11eb-9c14-432010cfc552.png)
+
 
 
 👋 Hi, I’m @mkmingalee
 
-👀 I’m interested in interaction design and human centered design
+🎨 To view my portfolio, please visit http://mkmingalee.github.io/
+
+👀 I’m interested in intraction and human centered design
 
 🌱 I’m currently learning JavaScript and Python
 
