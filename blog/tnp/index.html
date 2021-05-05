@@ -164,80 +164,145 @@
         loading="lazy"
       />
     </span></p>
-<p><b>Development of UI design</b> </p>
-<p>We proceeded with the second development of UI design after the service is launched. In the second development of the service, we minimized and organized them. While we designed the first development to cover various working types and allow users to make detailed settings. The screen was arranged by simplifying the working type and hiding various setting functions that were exposed in the first design.</p>
+<p><b>User Flows</b> </p>
+<p>We built user flows depending on the roles of the members, general users and managers. General users are employee that are not in charge of managing other team mates. The differences between general users and managers are two things. To manage team mates, managers can view and take actions on received request. And managers can also view statistics of members. Except for those two, the following functions are given the same.</p>
+<ul>
+<li>User can record when they start and finish working. </li>
+<li>And it is stored and shown as a visualization in the statistics menu</li>
+<li>General users sometimes need to have an approval from their manager. They can send it through this system. And users can view them in history menu. </li>
+<li>Notification menu helps users to be aware of their working hours and their approval status. </li>
+<li>Approval system can make big changes in the development of the system. So development was carried out with this in mind.</li>
+</ul>
+<div class="iframe-container">
+<iframe class="responsive-iframe" src="https://player.vimeo.com/video/545484301?autoplay=1&loop=1&autopause=0&title=0&background=1&background=1" frameborder="0" allowfullscreen></iframe>
+</div>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; "
     >
       <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 66.8%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHaNZSaANf/xAAZEAACAwEAAAAAAAAAAAAAAAABEQADEBL/2gAIAQEAAQUCsDg6wuLP/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBJB/9oACAEDAQE/AVo//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgEFAAAAAAAAAAAAAAAAARAAAiIxUXH/2gAIAQEABj8CFxHJTp5X/8QAGxABAAICAwAAAAAAAAAAAAAAAQARIZExUYH/2gAIAQEAAT8hYbJKACtMrBHidSamaZeMCp//2gAMAwEAAgADAAAAEPvP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAREQMf/aAAgBAwEBPxBFjrn/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAEBAAIBBQAAAAAAAAAAAAABEQAhMVFhgZHB/9oACAEBAAE/ENWMUVz3rCF2KavWvN4mC1awAET3r7jSRZugPjBELn//2Q=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="tnp explain 5"
-        title="tnp explain 5"
-        src="/static/8657b23787818eead3fdd72a720ce19f/a2510/tnp-explain-5.jpg"
-        srcset="/static/8657b23787818eead3fdd72a720ce19f/0479a/tnp-explain-5.jpg 250w,
-/static/8657b23787818eead3fdd72a720ce19f/41099/tnp-explain-5.jpg 500w,
-/static/8657b23787818eead3fdd72a720ce19f/a2510/tnp-explain-5.jpg 1000w,
-/static/8657b23787818eead3fdd72a720ce19f/c58a3/tnp-explain-5.jpg 1500w,
-/static/8657b23787818eead3fdd72a720ce19f/e018a/tnp-explain-5.jpg 1876w"
-        sizes="(max-width: 1000px) 100vw, 1000px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 54.400000000000006%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHsdXUKKQ//xAAYEAEBAQEBAAAAAAAAAAAAAAACABMBIf/aAAgBAQABBQJI3eajGzMPDf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAIBBAMAAAAAAAAAAAAAAAABMRAREiEycZH/2gAIAQEABj8CvltEtdHNjn0VP//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExEEFRYYH/2gAIAQEAAT8huVOCiN5buSgEcA7e/WoARf14/9oADAMBAAIAAwAAABBzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB8QAQACAgICAwAAAAAAAAAAAAERIQAxQVEQYXGRof/aAAgBAQABPxDWcLhbr717waS781KaZ3+YbiwBIgvz2+8ghIcMrSkF0D1lYCFlFVVbb8f/2Q=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="tnp wireframe 3"
-        title="tnp wireframe 3"
-        src="/static/676e6d0cf522274b5350c0d2bdef41af/a2510/tnp-wireframe-3.jpg"
-        srcset="/static/676e6d0cf522274b5350c0d2bdef41af/0479a/tnp-wireframe-3.jpg 250w,
-/static/676e6d0cf522274b5350c0d2bdef41af/41099/tnp-wireframe-3.jpg 500w,
-/static/676e6d0cf522274b5350c0d2bdef41af/a2510/tnp-wireframe-3.jpg 1000w,
-/static/676e6d0cf522274b5350c0d2bdef41af/c58a3/tnp-wireframe-3.jpg 1500w,
-/static/676e6d0cf522274b5350c0d2bdef41af/3acf0/tnp-wireframe-3.jpg 2000w,
-/static/676e6d0cf522274b5350c0d2bdef41af/16dc8/tnp-wireframe-3.jpg 3402w"
-        sizes="(max-width: 1000px) 100vw, 1000px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span>
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 112.80000000000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wgARCAAXABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAECAwQFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAH3UW0A6AXHYiRP/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAIDEAEEEf/aAAgBAQABBQIxexG0inb/AP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABoQAAICAwAAAAAAAAAAAAAAAAIQARESIIH/2gAIAQEABj8C0DGaol1//8QAHBABAAICAwEAAAAAAAAAAAAAAQARITEQQVGR/9oACAEBAAE/IVvp35NW7c98G20h9asdz5Aq11RhkzMeT//aAAwDAQACAAMAAAAQWAd+/8QAGREAAgMBAAAAAAAAAAAAAAAAARARIVGB/9oACAEDAQE/EALlb1f/xAAWEQEBAQAAAAAAAAAAAAAAAAABECH/2gAIAQIBAT8QhpP/xAAbEAADAQEBAQEAAAAAAAAAAAAAARExIUFxkf/aAAgBAQABPxDEktIqFfZ2Zz4KTBYzRyMiHJ6aVTOEVeqxHNfA9P1CQqlP/9k='); background-size: cover; display: block;"
+    style="padding-bottom: 46.800000000000004%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHtJ1QY0B//xAAbEAABBAMAAAAAAAAAAAAAAAACAAEDMxEjMf/aAAgBAQABBQI8ADkTR7FNVLQ3P//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAQACAAcAAAAAAAAAAAAAAAEAEQIDEDJhYqH/2gAIAQEABj8CsTB2luYHNTd5GGn/xAAbEAADAAIDAAAAAAAAAAAAAAAAAREhMXGhsf/aAAgBAQABPyGw7XZWDwq4j4CbqwO6eI18H//aAAwDAQACAAMAAAAQ4M//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAEAAQQDAQAAAAAAAAAAAAABABExobEhYXHR/9oACAEBAAE/ECYBYRX9j0QsWg87lNFHkS4mE3MLWYLU/9k='); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
         alt="tnp wireframe 1"
         title="tnp wireframe 1"
-        src="/static/4c641aa69630fbb800306dd0c1be667b/a2510/tnp-wireframe-1.jpg"
-        srcset="/static/4c641aa69630fbb800306dd0c1be667b/0479a/tnp-wireframe-1.jpg 250w,
-/static/4c641aa69630fbb800306dd0c1be667b/41099/tnp-wireframe-1.jpg 500w,
-/static/4c641aa69630fbb800306dd0c1be667b/a2510/tnp-wireframe-1.jpg 1000w,
-/static/4c641aa69630fbb800306dd0c1be667b/c58a3/tnp-wireframe-1.jpg 1500w,
-/static/4c641aa69630fbb800306dd0c1be667b/95e20/tnp-wireframe-1.jpg 1644w"
+        src="/static/c6ade4f00e42c00e16ecd4da72c8d39b/a2510/tnp-wireframe-1.jpg"
+        srcset="/static/c6ade4f00e42c00e16ecd4da72c8d39b/0479a/tnp-wireframe-1.jpg 250w,
+/static/c6ade4f00e42c00e16ecd4da72c8d39b/41099/tnp-wireframe-1.jpg 500w,
+/static/c6ade4f00e42c00e16ecd4da72c8d39b/a2510/tnp-wireframe-1.jpg 1000w,
+/static/c6ade4f00e42c00e16ecd4da72c8d39b/c58a3/tnp-wireframe-1.jpg 1500w,
+/static/c6ade4f00e42c00e16ecd4da72c8d39b/3acf0/tnp-wireframe-1.jpg 2000w,
+/static/c6ade4f00e42c00e16ecd4da72c8d39b/ca284/tnp-wireframe-1.jpg 3552w"
         sizes="(max-width: 1000px) 100vw, 1000px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
       />
     </span></p>
-<p><b>Parts wireframes and UI designs</b> </p>
-<p>I designed the service's UI screens and made wireframes simultaneously to develop the service in an agile and swift way.</p>
+<p>Circle in the main screen is filled with tje amount of times how much user worked. Whole circle at represents 100% of working hours that are assigned to the user. And it can be viewed by Daily, weekly, monthly. When user is working the circle is filled in different color. And when user worked over the assigned time or not in the time of designated working time, it regarded as overworking time and fills another inner circle. </p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 46.800000000000004%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wgARCAAJABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe5vRQP/xAAYEAACAwAAAAAAAAAAAAAAAAABEQASIP/aAAgBAQABBQKohax//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEgITH/2gAIAQEABj8CxFR//8QAGRAAAgMBAAAAAAAAAAAAAAAAARAAIUFx/9oACAEBAAE/IQEyq668X//aAAwDAQACAAMAAAAQk8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEQIUFh/9oACAEBAAE/EBiWDY1siSUb+MdnGP/Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="tnp wireframe 2"
+        title="tnp wireframe 2"
+        src="/static/137bba926ab7811ba01cf31077b78402/a2510/tnp-wireframe-2.jpg"
+        srcset="/static/137bba926ab7811ba01cf31077b78402/0479a/tnp-wireframe-2.jpg 250w,
+/static/137bba926ab7811ba01cf31077b78402/41099/tnp-wireframe-2.jpg 500w,
+/static/137bba926ab7811ba01cf31077b78402/a2510/tnp-wireframe-2.jpg 1000w,
+/static/137bba926ab7811ba01cf31077b78402/c58a3/tnp-wireframe-2.jpg 1500w,
+/static/137bba926ab7811ba01cf31077b78402/3acf0/tnp-wireframe-2.jpg 2000w,
+/static/137bba926ab7811ba01cf31077b78402/ca284/tnp-wireframe-2.jpg 3552w"
+        sizes="(max-width: 1000px) 100vw, 1000px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>Approval system is the key of this system. When user is late for the designated work time or meeting time, they have to send a request for approval to their manager.
+Or when they have to exceed working more than assigned over working time. Manager receives it and can decide whether to approve it or not. </p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 46.800000000000004%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHs32ckKw//xAAZEAACAwEAAAAAAAAAAAAAAAABEQIDEhD/2gAIAQEAAQUCjrINjVrj3//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAQEAAwAAAAAAAAAAAAAAABEBECAh/9oACAEBAAY/AqC4vdP/xAAbEAABBQEBAAAAAAAAAAAAAAARAAEhMaEQcf/aAAgBAQABPyF+KEBIBxUEDCo/vf/aAAwDAQACAAMAAAAQQw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAQITHB/9oACAEBAAE/EOfjjwhPuJibdkwoilY55ojX/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="tnp wireframe 3"
+        title="tnp wireframe 3"
+        src="/static/ff88a597a9a021a8bac7e801441c3e95/a2510/tnp-wireframe-3.jpg"
+        srcset="/static/ff88a597a9a021a8bac7e801441c3e95/0479a/tnp-wireframe-3.jpg 250w,
+/static/ff88a597a9a021a8bac7e801441c3e95/41099/tnp-wireframe-3.jpg 500w,
+/static/ff88a597a9a021a8bac7e801441c3e95/a2510/tnp-wireframe-3.jpg 1000w,
+/static/ff88a597a9a021a8bac7e801441c3e95/c58a3/tnp-wireframe-3.jpg 1500w,
+/static/ff88a597a9a021a8bac7e801441c3e95/3acf0/tnp-wireframe-3.jpg 2000w,
+/static/ff88a597a9a021a8bac7e801441c3e95/ca284/tnp-wireframe-3.jpg 3552w"
+        sizes="(max-width: 1000px) 100vw, 1000px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>All of the recordings are shown by statistics with visualization. It can be seen by period that users want to view. Managers can view their and members’ data. </p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 46.800000000000004%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wgARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdut0KDB/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAIBERIxQf/aAAgBAQABBQJbMmuNKdP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAABECEg/9oACAEBAAY/ApAqcf/EABsQAAICAwEAAAAAAAAAAAAAAAERACEQMUFR/9oACAEBAAE/IdTBlhQUARb5H6D7NINMf//aAAwDAQACAAMAAAAQQ8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAEAAgICAwAAAAAAAAAAAAABACERQTFxobHR/9oACAEBAAE/ELrAYOXyLAQheW63CSBvBic/c8x9wn//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="tnp wireframe 4"
+        title="tnp wireframe 4"
+        src="/static/65ebbc0b8bf5c2c44a51f9b9ae2c89d8/a2510/tnp-wireframe-4.jpg"
+        srcset="/static/65ebbc0b8bf5c2c44a51f9b9ae2c89d8/0479a/tnp-wireframe-4.jpg 250w,
+/static/65ebbc0b8bf5c2c44a51f9b9ae2c89d8/41099/tnp-wireframe-4.jpg 500w,
+/static/65ebbc0b8bf5c2c44a51f9b9ae2c89d8/a2510/tnp-wireframe-4.jpg 1000w,
+/static/65ebbc0b8bf5c2c44a51f9b9ae2c89d8/c58a3/tnp-wireframe-4.jpg 1500w,
+/static/65ebbc0b8bf5c2c44a51f9b9ae2c89d8/3acf0/tnp-wireframe-4.jpg 2000w,
+/static/65ebbc0b8bf5c2c44a51f9b9ae2c89d8/ca284/tnp-wireframe-4.jpg 3552w"
+        sizes="(max-width: 1000px) 100vw, 1000px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>In the history of the menu, users can view the history of their approvals. In the detail page, they can view the detail page of the request what they sent. We tried to reassure users to see how progress their approval is going on because many of the company has to go through process. Managers have 2 categories in history menu of their own and members.To lessen works of managers, we intended to make it possible approving or declining the request easily by dragging the element in the list.  </p>
+<p><b>Development of UI design</b> </p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwb/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAB3KuSQkK//8QAGRAAAwADAAAAAAAAAAAAAAAAAQIQEiEx/9oACAEBAAEFAmGSjUPJ/8QAFhEBAQEAAAAAAAAAAAAAAAAAERAh/9oACAEDAQE/ATWf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAAcBAAAAAAAAAAAAAAAAAAECESBBgZH/2gAIAQEABj8CvAkn7H//xAAZEAEBAAMBAAAAAAAAAAAAAAABEQAQMUH/2gAIAQEAAT8haN69TK4IHFVwWaPTX//aAAwDAQACAAMAAAAQx8//xAAWEQEBAQAAAAAAAAAAAAAAAAABEGH/2gAIAQMBAT8QTpP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAfEAACAQIHAAAAAAAAAAAAAAAAARExkRBBUWGh4fD/2gAIAQEAAT8QYJjg6m4jUPAO8GfQ9q38isLjw//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="tnp explain 5"
+        title="tnp explain 5"
+        src="/static/ef6e9d07c30742eacb101edd57f1a1e9/a2510/tnp-explain-5.jpg"
+        srcset="/static/ef6e9d07c30742eacb101edd57f1a1e9/0479a/tnp-explain-5.jpg 250w,
+/static/ef6e9d07c30742eacb101edd57f1a1e9/41099/tnp-explain-5.jpg 500w,
+/static/ef6e9d07c30742eacb101edd57f1a1e9/a2510/tnp-explain-5.jpg 1000w,
+/static/ef6e9d07c30742eacb101edd57f1a1e9/c58a3/tnp-explain-5.jpg 1500w,
+/static/ef6e9d07c30742eacb101edd57f1a1e9/3acf0/tnp-explain-5.jpg 2000w,
+/static/ef6e9d07c30742eacb101edd57f1a1e9/cfcd9/tnp-explain-5.jpg 7400w"
+        sizes="(max-width: 1000px) 100vw, 1000px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>We proceeded with the second development of UI design after the service is launched. In the second development of the service, we minimized and organized them. While we designed the first development to cover various working types and allow users to make detailed settings. The screen was arranged by simplifying the working type and hiding various setting functions that were exposed in the first design.</p>
 <div class="iframe-container">
 <iframe class="responsive-iframe" src="https://player.vimeo.com/video/502337460?autoplay=1&loop=1&autopause=0&title=0&background=1&background=1" frameborder="0" allowfullscreen></iframe>
 </div>
